@@ -9,18 +9,18 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <div className="footer">
-          <small>
-            <a
-              href="https://github.com/judithrauland/weather-app-react"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open-source code
-            </a>
-            {""} by Judith Rauland
-          </small>
-        </div>
+      </div>
+      <div className="footer">
+        <small>
+          <a
+            href="https://github.com/judithrauland/weather-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          {""} by Judith Rauland
+        </small>
       </div>
     </div>
   );

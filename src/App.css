@@ -1,0 +1,16 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin: -50px;
+}
