@@ -5,23 +5,25 @@
   margin-bottom: 20px;
 }
 .weather h1 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 100;
   line-height: 2;
   margin: 20px 0 0 0;
 }
 
-.weather .temp {
-  font-size: 24px;
+.weather .icon {
+  margin-right: 50px;
 }
 
-.weather img {
-  display: inline-block;
-  margin-right: 10px;
+.weather .temperature {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 28px;
 }
 
 .weather .unit {
   position: relative;
+  margin-top: 20px;
   top: -5px;
 }
 
