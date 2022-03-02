@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
 import "./Weather.css";
 
@@ -17,10 +18,8 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <div className="clearfix">
             <div className="float-left">
-              <img
-                src="http://openweathermap.org/img/wn/${
-                  weatherData.icon
-                }@2x.png"
+              <WeatherIcon
+                code={props.data.icon}
                 size={64}
                 alt={props.data.description}
               />
