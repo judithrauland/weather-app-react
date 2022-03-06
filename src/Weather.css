@@ -42,3 +42,7 @@
 a:link {
   text-decoration: none;
 }
+
+.item {
+  opacity: 0.5;
+}

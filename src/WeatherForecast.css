@@ -1,6 +1,7 @@
-.Forecast {
+.WeatherForecast {
   text-align: center;
   margin-top: 20px;
+  padding: 5px;
   background-color: #38404c;
   border-radius: 10px;
 }
@@ -9,9 +10,11 @@
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
 .WeatherForecast-temp {
   margin-bottom: 10px;
 }
+
 .WeatherForecast-temp-min {
   opacity: 0.6;
 }
